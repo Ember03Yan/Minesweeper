@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Campo Minato Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Campo Minato</h1>
+    <div class="controls">
+        <button onclick="startGame(9, 9, 10)">Principiante (9x9)</button>
+        <button onclick="startGame(16, 16, 40)">Intermedio (16x16)</button>
+        <button onclick="startGame(16, 30, 99)">Esperto (30x16)</button>
+    </div>
+    <div id="grid-container">
+        <div id="grid"></div>
+    </div>
+    <h2 id="status">Scegli una difficoltà</h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
